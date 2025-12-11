@@ -5,16 +5,17 @@ description = ""
 authors = [
     {name = "Chris Bowles",email = "BowlesCR@users.noreply.github.com"}
 ]
-readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "shapely (>=2.1.2,<3.0.0)"
+    "shapely (>=2.1.2,<3.0.0)",
 ]
-package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
 
 [tool.poetry.group.dev.dependencies]
 black = "^25.12.0"
